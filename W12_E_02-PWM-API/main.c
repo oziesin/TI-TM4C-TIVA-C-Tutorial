@@ -12,8 +12,6 @@
 /***********************Variables***********************/
 #define PWM_FREQ 1000 // 1kHz
 #define PWM_DUTY 50  // %50 Duty
-//uint32_t PWM_FREQ=10000; // 1kHz
-//uint32_t PWM_DUTY=80;   // %50 Duty
 uint32_t Duty=0;
 uint32_t PWMClock=0,Load=0;
 float coef=0;
