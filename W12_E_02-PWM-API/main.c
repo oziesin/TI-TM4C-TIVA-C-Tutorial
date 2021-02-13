@@ -10,8 +10,8 @@
 #include "driverlib/interrupt.h"
 #include "driverlib/pin_map.h"
 /***********************Variables***********************/
-#define PWM_FREQ 10000 // 1kHz
-#define PWM_DUTY 90  // %50 Duty
+#define PWM_FREQ 1000 // 1kHz
+#define PWM_DUTY 50  // %50 Duty
 //uint32_t PWM_FREQ=10000; // 1kHz
 //uint32_t PWM_DUTY=80;   // %50 Duty
 uint32_t Duty=0;
